@@ -1368,7 +1368,7 @@ def _set_bni_ray(setting="set", app=None, async_=1):
         print("# resolution: %s dpi" % dpi)
     if async_ == 1:
         print("# Ray is working in the background")
-    bni_ray(width, width_unit=width_unit, dpi=dpi, {'async': async_})
+    bni_ray(width, {'async': async_}, width_unit=width_unit, dpi=dpi)
 def bni_ray(width, name_png=None, dpi="300", width_unit="cm", **arg):
     '''Ray specified with dpi and width.
     USAGE: bni_ray(width,dpi="300",width_unit="cm",name_png=None,**arg)
