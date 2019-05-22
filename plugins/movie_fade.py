@@ -1,5 +1,5 @@
 '''
-http://pymolwiki.org/index.php/movie_fade
+Described at: http://pymolwiki.org/index.php/movie_fade
 
 (c) 2011 Jason Vertrees
 (c) 2013 Thomas Holder
